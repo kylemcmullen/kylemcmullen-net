@@ -18,4 +18,12 @@ github_username:  kylemcmullen
 # Build settings
 markdown: kramdown
 
-exclude: [ 'vendor/*','vendor/**/*', 'vendor','vendor/', 'Gemfile', 'Gemfile.lock', 's3_website.yml' ]
+exclude: 
+  - 'README.md'
+  - 'vendor/*'
+  - 'vendor/**/*' 
+  - 'vendor'
+  - 'vendor/' 
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 's3_website.yml' 
