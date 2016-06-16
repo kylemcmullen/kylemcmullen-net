@@ -18,6 +18,13 @@ github_username:  kylemcmullen
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-assets
+
+assets:
+  compress:
+    css: default
+
 exclude: 
   - 'README.md'
   - 'vendor/*'
